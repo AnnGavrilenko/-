@@ -144,16 +144,15 @@ position: relative;
 
 .image-top {
      position: absolute;
-      top: 50%; /* Центрируем по вертикали */
-      left: 30px; /* Располагаем стрелку слева */
+      top: 50%; 
+      left: 30px;
       top: 6px;
-      transform: translateY(-50%); /* Центрируем по вертикали */
-      width: 30px; /* Ширина стрелки */
-      height: 30px; /* Высота стрелки */
-      background-image: url('resources/image.png'); /* Путь к изображению стрелки */
-      background-size: contain; /* Подгоняет размер изображения */
-      background-repeat: no-repeat; /* Не повторяем изображение */
-}
+      transform: translateY(-50%); 
+      width: 30px; 
+      height: 30px; 
+      background-image: url('resources/image.png'); 
+      background-size: contain; 
+      background-repeat: no-repeat; 
 
 .right, .left {
   color: #000;
@@ -253,3 +252,4 @@ font-weight: 550;
     margin: 0;
   }
 }
+
