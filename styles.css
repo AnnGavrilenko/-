@@ -231,6 +231,7 @@ font-weight: 550;
   cursor: pointer;
   text-align: center;
   margin: 10px 20px;
+   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 .card .view-all:hover {
@@ -252,4 +253,5 @@ font-weight: 550;
     margin: 0;
   }
 }
+
 
